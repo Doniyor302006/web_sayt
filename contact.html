@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <title>Aloqa | Shaxsiy Saytim</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo">Ismingiz.uz</a>
+        <nav>
+            <a href="index.html">Bosh sahifa</a>
+            <a href="about.html">Men haqimda</a>
+            <a href="projects.html">Loyihalarim</a>
+            <a href="contact.html" class="active">Aloqa</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h1>Men bilan bog‘lanish</h1>
+        <p>Taklif yoki savollaringiz bo‘lsa, quyidagi forma orqali xabar yuboring:</p>
+        
+        <form onsubmit="alert('Xabaringiz yuborildi!'); return false;">
+            <label>Ismingiz:</label>
+            <input type="text" placeholder="Ismingizni kiriting" required>
+            
+            <label>Email yoki Telegram:</label>
+            <input type="text" placeholder="@username yoki email@mail.com" required>
+            
+            <label>Xabaringiz:</label>
+            <textarea rows="4" placeholder="Xabar matnini yozing..." required></textarea>
+            
+            <button type="submit" class="btn">Yuborish</button>
+        </form>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 [Ismingiz]. Barcha huquqlar himoyalangan.</p>
+    </footer>
+</body>
+</html>
